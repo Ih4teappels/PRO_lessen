@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 header {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	background-color: lightblue;
 }
 
-h1 {
-	margin-left: 50em;
+header h2 {
+	margin-left: 3em;
+	font-family: lobster;
 }
