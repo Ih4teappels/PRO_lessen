@@ -1,38 +1,53 @@
-var counter = 0;
-var images = ["img/Photo1.jpg","img/Photo2.jpg","img/Photo3.jpg","img/Photo4.jpg","img/Photo5.jpg","img/Photo6.jpg"];
+window.addEventListener("load", function(){
 
-window.addEventListener("load",function(){
-
-	var galleryImage = document.querySelector("#galleryImage");
-
-	document.querySelector("#left").addEventListener("click",function(){
-	var url = images[counter];
-	counter--;
-		if(counter == -1) {
-			counter = 4;
-		}
-
-		
-		galleryImage.src = url;
-	});
-
-	document.querySelector("#right").addEventListener("click",function(){
-	var url = images[counter];
-	counter++;
-		if(counter == 5) {
-			counter = 0;
-		}
-
-		galleryImage.src = url;
-	});
-	
-	
+    
 
 });
 
-	
-	
 
 
 
+// window.addEventListener("load", function(){
 
+//     var user = {
+//         name:"Harrie",
+//         lastName:"Potter",
+//         age: 16,
+//         family: [
+//             {name:"Bert"},
+//             {name:"Kees"}
+//         ],
+//         delete: function(){
+//             console.log('gooi mij weg');
+//         },
+//         makeOlder: function(extraYears){
+//             this.age += extraYears;
+//         }
+//     };
+
+//     var user2 = {name:'md'};
+
+//     var users = [user];
+
+//     console.log(users);
+
+
+//     function isTheSame(number1, number2){
+//         return number1 == number2;
+//     }
+
+
+//     function createUser(){
+//         var newUser = {
+//             name:"geen naam",
+//             age:0,
+//             delete: function(){
+//                 return 45;
+//             }
+//         };
+//         return newUser;
+//     }
+
+//     createUser().delete();
+
+// });
