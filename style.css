@@ -10,3 +10,14 @@ header h2 {
 	margin-left: 3em;
 	font-family: lobster;
 }
+
+#galleryImage {
+	width: 1000px;
+	height: 750px;
+	margin-left: 23%;
+	margin-top: 1em;
+}
+
+#left {
+	margin-left: 46%;
+}
